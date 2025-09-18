@@ -1,0 +1,151 @@
+* {
+    padding: 0;
+    margin: 0;
+    background-color: #1B1A55;
+}
+
+#main {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 5vh;
+}
+
+nav {
+    top: 0;
+    display: flex;
+    width: 100%;
+    height: 5vh;
+    position: fixed;
+}
+
+#main > div {
+    background-color: #1B1A55;
+    width: 60%;
+    height: 100vh;
+    padding-top: 5vh;
+}
+
+nav > div {
+    display: inline;
+    width: 20%;
+    height: 100%;
+}
+
+.button {
+    padding: 2.5vh 0;
+    text-align: center;
+    width: auto;
+    height: auto;
+    background-color: #070F2B;
+    line-height: auto;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+hr {
+    height: 0;
+    width: 5%;
+    border: none;
+    border-bottom: 10px dotted;
+    border-color: white;
+}
+
+footer {
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    align-items: center;
+    justify-content: center;
+    width: 100%
+}
+
+.button:hover {
+    background-color: mediumaquamarine;
+    color: cadetblue;
+}
+
+@media (max-width: 1050px) {
+    .showcase {
+        flex-direction: column;
+        height: auto;
+    }
+}
+
+h2 {
+    padding: 5vh 0 20px;
+    text-align: center;
+    color: white;
+    font-size: xx-large;
+}
+
+h3 {
+    text-align: center;
+    color: #ffffff;
+    margin: 0 0 14px;
+}
+
+p {
+    text-align: left;
+    color: white;
+    font-size: 17px;
+    line-height: 40px;
+}
+
+.email {
+    padding-top: 40px;
+}
+
+p a {
+    color: lightblue;
+    text-decoration: underline;
+}
+
+li {
+    color: #ffffff;
+    text-align: center;
+    list-style: none;
+}
+
+.resume {
+    text-align: justify;
+}
+
+.showcase {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+    height: 100%;
+}
+
+.showcase img {
+    height: auto;
+    width: auto;
+    max-height: 200px;
+    max-width: 150px;
+    border-top-right-radius: 5%;
+    border-top-left-radius: 5%;
+    margin-bottom: 0;
+}
+
+.showcase p {
+    width: 150px;
+    text-align: center;
+    background-color: aliceblue;
+    border-radius: 5% 0;
+    margin: 0;
+}
+
+.main-img {
+    height: 100%;
+    width: 100vw;
+}
+
+.showcase div {
+    
+}

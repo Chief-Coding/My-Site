@@ -1,2 +1,1 @@
-# capstone-2
-Capstone Project #2 completed
+My Personal Website that give information on me.
